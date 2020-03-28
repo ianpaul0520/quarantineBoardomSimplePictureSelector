@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+.main-container {
+    width: 80% auto;
+    margin: 0 auto;
+    box-shadow: inset  0 0 10px gray;
+    padding: 10px;
+}
+
+#view-point {
+    margin: auto;
+}
+#view-point #sample-image{
+    width:  70%;
+    height: 768px;
+}
+#thumbnail.container{
+    display: inline;
+}
+#thumbnail-container img {
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+}
